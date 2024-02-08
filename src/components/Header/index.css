@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  align-items: center;
+}
+.header-heading {
+  align-self: flex-start;
+  width: 20%;
+}
+.head-right {
+  width: 45%;
+  margin-left: 20%;
+  margin-bottom: 20px;
+  justify-self: flex-end;
+}
+.option-items {
+  margin: 10px;
+}
+@media (min-width: 760px) {
+  .head-right {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.inp{
+  margin: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
