@@ -1,4 +1,14 @@
-.movie-item{
-    width:40%;
-    margin: 60px;
+.movie-item {
+  width: 25%;
+  margin: 60px;
+}
+.img {
+  height: 200px;
+  width: 150px;
+}
+@media (min-width: 760px) {
+  .img {
+    height: 300px;
+    width: 250px;
+  }
 }
