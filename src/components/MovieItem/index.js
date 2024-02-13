@@ -4,8 +4,13 @@ import Header from '../Header'
 
 const MovieItem = props => {
   const {details} = props
-  const {backdropPath, id, originalTitle, voteAverage} = details
-  const image = `https://image.tmdb.org/t/p/w500${backdropPath}`
+  const {backdropPath, id, originalTitle, voteAverage, posterPath} = details
+
+  const image =
+    backdropPath !== null
+      ? `https://image.tmdb.org/t/p/w500${posterPath}`
+      : 'https://st2.depositphotos.com/3904951/11584/v/950/depositphotos_115849146-stock-illustration-photo-picture-web-icon-in.jpg'
+
   return (
     <>
       <div className="movie-item">
