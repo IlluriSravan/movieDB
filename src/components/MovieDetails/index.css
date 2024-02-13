@@ -1,0 +1,40 @@
+.movie-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.left {
+  margin: 20px;
+  justify-self: flex-start;
+  align-self: flex-start;
+  width: 60%;
+}
+.right {
+  padding-left: 20px;
+}
+.rt1 {
+  height: 85%;
+  width: 60%;
+}
+.each-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cast-item {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.cast-img {
+  width: 45%;
+  height: 100px;
+}
+.cast-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
