@@ -8,15 +8,16 @@ import MovieDetails from './components/MovieDetails'
 
 // write your code here
 const App = () => (
-  <>
+  <div className="app">
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/:id" component={MovieDetails} />
+
       <Route exact path="/top-rated" component={TopRated} />
       <Route exact path="/upcoming" component={Upcoming} />
       <Route exact path="/search/:sea" component={Search} />
+      <Route exact path="/:id" component={MovieDetails} />
     </Switch>
-  </>
+  </div>
 )
 
 export default App
